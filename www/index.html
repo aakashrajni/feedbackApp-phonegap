@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <title>Feedback</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="cordova.js"></script>
+        <div class="bs-example">
+            <form action="https://mistaken-quality.000webhostapp.com/send.php" method="post">
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="inputFeedback">Feedback</label>
+                    <textarea  class="form-control" name="feedback" id="inputPassword" placeholder="your feedback" cols="30" rows="10" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </body>
+</html>
